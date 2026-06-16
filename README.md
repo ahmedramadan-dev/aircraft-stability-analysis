@@ -1,19 +1,41 @@
-Aircraft Stability and Center of Gravity Analysis
+Aircraft Stability Analysis
 
-This project contains Python scripts for flight dynamics and stability analysis of two different aircraft: F-16 and C-130.
+Overview
+This project analyzes aircraft longitudinal stability using Python.
+Two aircraft models were studied:
+- F-16 Fighter Aircraft
+- C-130 Transport Aircraft
 
-1) F-16 Longitudinal Stability (f16_stability.py)
-This script calculates the pitching moment coefficient (Cm) against the Angle of Attack (Alpha). It shows how the elevator deflection affects the trim point, and how moving the Center of Gravity (CG) changes the longitudinal stability.
+F-16 Analysis
+- Elevator Deflection Effect
+- Pitching Moment Coefficient Analysis
+- Center of Gravity Sweep
+- Static Stability Evaluation
 
 Example Results:
 ![F-16 Elevator Deflection](f16_elevator.png)
 ![F-16 CG Sweep](f16_cg.png)
 
-2) C-130 Fuel Burn and CG Shift (c130_cg_fuel.py)
-This script simulates a fuel burn mission for a C-130 cargo aircraft. It calculates how the CG position shifts as fuel is consumed from the tanks, tracks the stability coefficient (Cm) to ensure the aircraft remains stable, and finds the required elevator deflection to keep the aircraft trimmed.
+C-130 Analysis
+- Fuel Burn Simulation
+- Center of Gravity Tracking
+- Stability Limit Detection
+- Elevator Trim Compensation
 
 Example Results:
 ![C-130 Mission Plots](c130_mission.png)
 
-Requirements
-To run these scripts, you only need Python with NumPy and Matplotlib libraries installed.
+Technologies Used
+- Python
+- NumPy
+- Matplotlib
+
+Skills Demonstrated
+- Aircraft Stability Analysis
+- Aerodynamics Fundamentals
+- Data Visualization
+- Engineering Programming
+- Numerical Computation
+
+Author
+Ahmed Ramadan
